@@ -1,0 +1,5 @@
+Script to generate a valid smb.conf file.
+I know how annoying setting up Samba can be on Linux systems,
+that's why I wrote this simple script that hurrys along the process.
+
+Tested on Ubuntu and Arch Linux. Should work on other *nix but I can't guarentee anything.
