@@ -93,8 +93,9 @@ while [ "$shares" = "y" ]; do
   echo "  path = $sharepath" >> $out
   echo "  writeable = $sharewriteable" >> $out
   echo "  create mask = $sharemask" >> $out
-  echo "  guest ok = no" >> $out ## Disable guest access by default
-
+  echo "  guest ok = yes" >> $out ## Disable guest access by default
+  echo " usershare allow guests = Yes" >> $out
+  echo " usershare owner only = False" >> $out
   ## Write success message.
   echo -e "\nSuccessfully added share."
 
